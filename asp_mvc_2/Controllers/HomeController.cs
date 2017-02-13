@@ -1,12 +1,9 @@
 ﻿using System.Web.Mvc;
 using asp_mvc_2.Security;
-<<<<<<< HEAD
 using System.Web.Security;
 using asp_mvc_2.Models.ViewModel;
 using asp_mvc_2.Models.EntityManager;
 
-=======
->>>>>>> cdc5256a9bbdb23d8f5ea7193967ec209c89d6e7
 namespace Asp_mvc_2.Controllers
 {
     public class HomeController : Controller
@@ -30,7 +27,7 @@ namespace Asp_mvc_2.Controllers
         {
             return View();
         }
-<<<<<<< HEAD
+
         [AuthorizeRoles("Admin")]
         public ActionResult UpdateUserData(int userID, string loginName, string password, string firstName, string lastName, string gender, int roleID = 0)
         {
@@ -73,7 +70,5 @@ namespace Asp_mvc_2.Controllers
             return Json(new { success = true });
         }
 
-=======
->>>>>>> cdc5256a9bbdb23d8f5ea7193967ec209c89d6e7
     }
 }

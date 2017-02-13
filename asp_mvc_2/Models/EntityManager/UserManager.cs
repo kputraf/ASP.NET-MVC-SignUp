@@ -2,10 +2,7 @@
 using System.Linq;
 using asp_mvc_2.Models.DB;
 using asp_mvc_2.Models.ViewModel;
-<<<<<<< HEAD
 using System.Collections.Generic;
-=======
->>>>>>> cdc5256a9bbdb23d8f5ea7193967ec209c89d6e7
 
 namespace asp_mvc_2.Models.EntityManager
 {
@@ -89,7 +86,7 @@ namespace asp_mvc_2.Models.EntityManager
                 return false;
             }
         }
-<<<<<<< HEAD
+
         public List<LOOKUPAvailableRole> GetAllRoles()
         {
             using (DemoDBEntities db = new DemoDBEntities())
@@ -271,7 +268,6 @@ namespace asp_mvc_2.Models.EntityManager
                 }
             }
         }
-=======
->>>>>>> cdc5256a9bbdb23d8f5ea7193967ec209c89d6e7
+
     }
 }

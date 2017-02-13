@@ -1,9 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
-<<<<<<< HEAD
 using System.Collections.Generic;
-=======
 
->>>>>>> cdc5256a9bbdb23d8f5ea7193967ec209c89d6e7
 namespace asp_mvc_2.Models.ViewModel
 {
     public class UserSignUpView
@@ -39,7 +36,7 @@ namespace asp_mvc_2.Models.ViewModel
         [Display(Name = "Password")]
         public string Password { get; set; }
     }
-<<<<<<< HEAD
+
     public class UserProfileView
     {
         [Key]
@@ -89,6 +86,5 @@ namespace asp_mvc_2.Models.ViewModel
         public UserRoles UserRoles { get; set; }
         public UserGender UserGender { get; set; }
     }
-=======
->>>>>>> cdc5256a9bbdb23d8f5ea7193967ec209c89d6e7
+
 }
